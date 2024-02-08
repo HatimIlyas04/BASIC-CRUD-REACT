@@ -1,0 +1,70 @@
+
+
+.ar_form {
+	margin-top: calc(50vh);
+    background-color: #444;
+	transform: translate(-50%, -50%);
+	width: 500px;
+	height: 300px;
+	border-radius: 10px;
+	padding: 20px 30px;
+	margin-left: 50%;
+	box-shadow: 2px 1px 5px -1px #111;
+}
+
+.ar_form * {
+	transition: .3s ease-in-out;
+	box-sizing: border-box;
+}
+
+.ar_form form {
+	width: 100%;
+}
+
+.ar_form form input {
+	width: 90%;
+	margin: .6em 0;
+	padding: 10px 10px;
+	border: 0;
+	font-weight: 700;
+	background-color: transparent;
+	outline: none;
+	border-color: #217554;
+	border-radius: 20px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.ar_form form input[type="text"],
+.ar_form form input[type="password"]{
+	border: 2px solid gray;
+	color: #eee;
+}
+/* #03273D; */
+.ar_form form input[type="text"]:focus,
+.ar_form form input[type="password"]:focus{
+	border-color: #217554;
+	width: 100%
+}
+
+.ar_form form input[type="submit"] {
+	background-color: #217554;
+	color: white;
+	width: 70%;
+}
+
+.ar_form form input[type="submit"]:hover {
+	width: 80%;
+	background-color: #2D9E72;
+}
+
+.ar_form a {
+	color: #bbb;
+	margin-top: 2em;
+	text-align: center;
+	display: block;
+}
+
+.ar_form a:hover {
+	color: #35BD87;
+}

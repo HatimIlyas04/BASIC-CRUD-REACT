@@ -1,0 +1,49 @@
+body{
+    margin: 0%;
+}
+.wrapper{
+    height: 900PX;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    width: 105%;
+
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background,
+.foregound  {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-right: 40px;
+}
+.background{
+    transform: translateZ(-10px) scale(2);
+}
+.foregound{
+    transform: translateZ(-5px) scale(1.5);
+}
+.title{
+    font-size: 7rem;
+    color: rgb(19, 33, 234);
+    text-shadow: 0 19px 5px black;
+}
+.section {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    text-shadow: 0 19px 10px black;
+    padding: 20px;
+}

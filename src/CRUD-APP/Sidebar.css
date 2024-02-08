@@ -1,0 +1,78 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 249px;
+    height: 89vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;     
+    --bs-bg-opacity: 1;    
+    box-shadow: 0px 0 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    margin-top: 80px;
+    border-radius: 6px;
+  }
+
+  .col-2{
+    width: 15%;
+  }
+
+  .col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+    margin-top: 89px;
+}
+
+
+
+
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .logo h2 {
+    font-size: 1.2rem;
+  }
+  
+  .links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links li {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+  }
+  
+  .links li:hover {
+    background-color: #aed9cd;
+
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .links a:hover {
+    color: #000000;
+  }
+  

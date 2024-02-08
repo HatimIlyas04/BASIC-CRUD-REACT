@@ -1,0 +1,25 @@
+/* Navbar.css */
+
+.navbar {
+    box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    margin-right: 15px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+    color: #007bff;
+}
